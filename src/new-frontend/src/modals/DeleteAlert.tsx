@@ -55,7 +55,7 @@ const Delete: React.FC<DeleteProps> = ({ type, id, isOpen, onClose }) => {
             >
                 <AlertDialogOverlay>
                     <AlertDialogContent as="form" onSubmit={handleSubmit(onSubmit)}>
-                        <AlertDialogHeader fontSize='lg' fontWeight='bold'>
+                        <AlertDialogHeader>
                             Delete {type}
                         </AlertDialogHeader>
 
