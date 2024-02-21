@@ -4,9 +4,6 @@
 /* eslint-disable */
 export const $UserUpdateMe = {
     properties: {
-        password: {
-    type: 'string',
-},
         full_name: {
     type: 'string',
 },

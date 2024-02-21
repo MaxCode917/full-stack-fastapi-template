@@ -4,7 +4,6 @@
 /* eslint-disable */
 
 export type UserUpdateMe = {
-    password?: string;
     full_name?: string;
     email?: string;
 };
