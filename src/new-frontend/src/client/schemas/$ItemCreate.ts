@@ -9,7 +9,12 @@ export const $ItemCreate = {
     isRequired: true,
 },
         description: {
+    type: 'any-of',
+    contains: [{
     type: 'string',
+}, {
+    type: 'null',
+}],
 },
     },
 } as const;
